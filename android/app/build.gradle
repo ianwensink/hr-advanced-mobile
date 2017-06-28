@@ -126,8 +126,11 @@ android {
 }
 
 dependencies {
-    compile project(':react-native-vector-icons')
+    compile project(':react-native-push-notification')
+    compile project(':realm')
+    compile project(':react-native-background-geolocation')
     compile project(':react-native-maps')
+    compile project(':react-native-vector-icons')
     compile project(':react-native-google-analytics-bridge')
     compile project(':react-native-device-info')
     compile fileTree(dir: "libs", include: ["*.jar"])
